@@ -1,6 +1,15 @@
 import React from 'react';
 
-export default () => <h1> Primeiro Componente </h1>
+let isLegal = true
+
+export default (props) =>
+    <div>
+        <h1> {props.valor} </h1>
+        <h2> {1 + 1} </h2>
+        <p> {isLegal ? 'Sim' : 'Não'} </p>
+    </div>
+
+// export default () => <h1> Primeiro Componente </h1>
 
 // export default function () {
 //     return <h1>Primeiro Componente</h1>
