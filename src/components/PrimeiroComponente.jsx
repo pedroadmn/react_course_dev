@@ -7,6 +7,7 @@ export default (props) =>
         <h1> {props.valor} </h1>
         <h2> {1 + 1} </h2>
         <p> {isLegal ? 'Sim' : 'Não'} </p>
+        <p> {Math.random()} </p>
     </div>
 
 // export default () => <h1> Primeiro Componente </h1>
